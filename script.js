@@ -68,8 +68,8 @@ function getFieldName(input) {
 form.addEventListener("submit", function(e) {
     e.preventDefault();
     checkRequired([username, email, password, password2]);
-    checkLength(username, 3, 15);
-    checkLength(password, 6, 25);
+    checkLength(username, 6, 15);
+    checkLength(password, 8, 25);
     isEmailValid(email);
     comparePassowrd(password, password2)
 
