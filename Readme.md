@@ -1,2 +1,2 @@
 Simple form validator
-tdaycode.github.io/formvalidator/
+https://tdaycode.github.io/formvalidator/
