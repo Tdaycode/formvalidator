@@ -74,42 +74,4 @@ form.addEventListener("submit", function(e) {
     comparePassowrd(password, password2)
 
 
-
-
-
-    // simple Long method
-    // username conditions
-    // if (username.value === "") {
-    //     showError(username, "Username is required");
-
-    // } else {
-    //     showSuccess(username, "input your email below");
-    // }
-    // // email conditions
-    // if (email.value === "") {
-    //     showError(email, "Email is required");
-
-    // } else if (!isEmailValid(email.value)) {
-    //     showError(email, "Invalid Email Address");
-    // } else {
-    //     showSuccess(email, "input your password below");
-    // }
-    // // password conditions
-    // if (password.value === "") {
-    //     showError(password, "password is required");
-
-    // } else {
-    //     showSuccess(password, " confirm your password below");
-    // }
-
-    // // second password
-    // if (password2.value === "") {
-    //     showError(password2, "please confirm password");
-
-    // } else if (password.value !== password2.value) {
-    //     showError(password2, "password does not match");
-    // } else {
-    //     showSuccess(password2, "click the button below to submit");
-    // }
-
 });
